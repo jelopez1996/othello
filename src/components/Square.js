@@ -6,7 +6,7 @@ class Square extends Component {
         if(this.props.value === "X"){
             squareColor = squareColor + " black"
         } else if(this.props.value === "O"){
-            squareColor = squareColor + " grey"
+            squareColor = squareColor + " white"
         }
         return (
             <button className={squareColor} onClick={this.props.onClick}>
